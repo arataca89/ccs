@@ -1,0 +1,4 @@
+# Preserva os bytes exatos dos fixtures de teste.
+# Sem isso, um clone em Linux com core.autocrlf=true converteria
+# CRLF -> LF e os gabaritos de bytes quebrariam.
+projects/*/tests/*.txt -text
