@@ -16,21 +16,30 @@ de escrever C.
 ## Formatação
 
 - **Indentação**: 4 espaços. Não use tabs.
-- **Chaves**: sempre na linha seguinte, mesmo para blocos de uma
-  linha. Exceção: `struct`, `enum`, `union` podem usar chaves na
-  mesma linha se forem de uma linha só.
-- **Comprimento de linha**: até 80 colunas. Se passar, quebre.
-- **Espaços**: um espaço depois de vírgula, nenhum antes. Um espaço
-  ao redor de operadores binários (`a + b`), nenhum ao redor de
-  unários (`-a`, `!b`).
+- **Chaves em funções**: linha seguinte (Allman).
+- **Chaves em controle de fluxo** (`if`, `for`, `while`, `switch`):
+  mesma linha (K&R).
+- **Chaves em `struct`/`enum`/`union`**: mesma linha (K&R).
+- **Comprimento de linha**: até 80 colunas.
+- **Espaços**: um depois de vírgula, nenhum antes. Um ao redor de
+  operadores binários, nenhum ao redor de unários.
 
 ```c
-/* Sim */
-if (x > 0) {
-    y = x * 2;
-}
+/* Função: chave na linha seguinte */
+int wc_count(FILE *stream, WcCounts *out)
+{
+    /* Controle de fluxo: chave na mesma linha */
+    if (c == '\n') {
+        out->lines++;
+    } else if (is_space) {
+        in_word = 0;
+    }
 
-/* Não */
-if(x>0){
-    y=x*2;
+    /* Struct: chave na mesma linha */
+    struct point {
+        int x;
+        int y;
+    };
+
+    return 0;
 }
