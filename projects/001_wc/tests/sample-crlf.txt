@@ -1,0 +1,26 @@
+A padronizacao do C
+===================
+
+Ate o inicio dos anos 1980, C existia em varias versoes ligeiramente
+incompativeis entre si. Cada fabricante de compilador implementava
+sua propria variacao. Isso tornava o codigo dificil de portar entre
+sistemas.
+
+Em 1983, o American National Standards Institute (ANSI) formou o
+comite X3J11 para padronizar a linguagem. O trabalho levou varios
+anos e envolveu muita discussao sobre o que manter compativel com
+as implementacoes existentes.
+
+Em 1989, o padrao foi ratificado: ANSI X3.159-1989, conhecido como
+C89 ou ANSI C. Em 1990, a ISO adotou o mesmo padrao como ISO/IEC
+9899:1990, as vezes chamado de C90.
+
+Em 1999, veio o C99, que introduziu muitas novidades: variaveis
+declaradas no meio de blocos, o tipo long long, arrays de tamanho
+variavel, comentarios com //, e a biblioteca <stdint.h>. Em 2011,
+o C11 adicionou threads, atomics e alinhamento. C17 foi uma revisao
+menor. C23, a mais recente, trouxe mais melhorias.
+
+O padrao garante que o mesmo codigo C rode em qualquer plataforma
+que tenha um compilador conforme. E por isso que C ainda e tao
+relevante hoje: o padrao e a lingua franca dos sistemas.

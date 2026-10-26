@@ -1,0 +1,28 @@
+A criacao da linguagem C
+========================
+
+A historia de C comeca em 1969, nos Bell Labs, quando Ken Thompson
+e Dennis Ritchie trabalhavam no sistema operacional Multics. Apos o
+fracasso do projeto Multics, Thompson comecou a escrever um sistema
+operacional menor, que chamaria de Unix, originalmente em assembly
+para um PDP-7.
+
+Em 1972, Dennis Ritchie criou a linguagem C nos Bell Labs, a partir
+de uma linguagem anterior chamada B, que por sua vez derivava de
+BCPL. O objetivo era ter uma linguagem de alto nivel que ainda
+permitisse controle direto sobre o hardware -- algo essencial para
+escrever um sistema operacional.
+
+Em 1973, o proprio Unix foi reescrito em C. Esse foi um marco: pela
+primeira vez, um sistema operacional era portavel, podendo ser
+levado para outras maquinas bastando recompilar. Isso mudou a
+historia da computacao.
+
+Em 1978, Brian Kernighan e Dennis Ritchie publicaram "The C
+Programming Language", conhecido como K&R. O livro serviu como
+referencia de fato para a linguagem por mais de uma decada, ate a
+padronizacao oficial.
+
+C influenciou praticamente todas as linguagens modernas: C++, Java,
+C#, Go, Rust, JavaScript e Python, direta ou indiretamente, devem
+algo ao seu design.
