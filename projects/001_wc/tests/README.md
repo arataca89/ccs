@@ -9,7 +9,7 @@
 ## Gabaritos medidos
 
 Os números acima foram obtidos rodando `wc` nos arquivos commitados
-(TDM-GCC 10.3 / Windows 11, em [data]). Se você rodar e der diferente,
+(TDM-GCC 10.3 / Windows 11, em 26/10/2026). Se você rodar e der diferente,
 o arquivo foi modificado — ver `.gitattributes` na raiz do repositório.
 
 ## Como rodar os testes
