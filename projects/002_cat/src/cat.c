@@ -109,6 +109,7 @@ int cat_copy(FILE *input, FILE *output, const CatOptions *opts)
         if (emit_char(c, output, opts) != 0)
             return -1;
 
+        /* --- atualiza estado --- */
         if (c == '\n') {
             st.last_was_blank = was_at_line_start;
             st.at_line_start = 1;
