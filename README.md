@@ -1,3 +1,9 @@
+arataca89@gmail.com
+
+Aulas particulares de programação
+
+---
+
 # CCS — C Collection Software
 
 > C não é apenas uma linguagem: é a ferramenta com que se constroem
@@ -92,3 +98,8 @@ contexto de um projeto específico):
 
 MIT. Ver [LICENSE](LICENSE).
 
+---
+
+arataca89@gmail.com
+
+Aulas particulares de programação
