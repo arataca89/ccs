@@ -1,9 +1,3 @@
-arataca89@gmail.com
-
-Aulas particulares de programação
-
----
-
 # CCS — C Collection Software
 
 > C não é apenas uma linguagem: é a ferramenta com que se constroem
@@ -36,6 +30,7 @@ Cada projeto traz:
 |---|---|---|---|
 | 001 | [wc](projects/001_wc/) | Utilitário de linha de comando | Contador de linhas, palavras e bytes. Streams, `EOF`, máquina de estados, portabilidade Windows/Linux. |
 | 002 | [cat](projects/002_cat/) | Utilitário de linha de comando | Concatenação e transformação de texto. Parsing manual de flags, máquina de estados, lookahead de 1 caractere, composição de transformações. |
+| 003 | [grep](projects/003_grep/) | Utilitário de linha de comando | Busca de padrão em linhas. Alocação dinâmica (`malloc`/`realloc`), `size_t`, busca literal, código de retorno POSIX. |
 
 *(novos projetos serão adicionados ao longo do tempo — ver
 [sumário detalhado](projects/README.md))*
@@ -93,13 +88,10 @@ contexto de um projeto específico):
   `cat -U` e em lexers.
 - [Guia de estilo do CCS](docs/style-guide.md) — convenções de
   código para todos os projetos.
+- [Compilando um projeto do CCS](docs/compilando.md) — template de
+  `CMakeLists.txt` e comandos para TDM-GCC, GCC/Clang e MSVC.
 
 ## Licença
 
 MIT. Ver [LICENSE](LICENSE).
 
----
-
-arataca89@gmail.com
-
-Aulas particulares de programação

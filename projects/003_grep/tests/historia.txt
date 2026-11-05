@@ -1,0 +1,17 @@
+A historia da linguagem C
+=========================
+
+C foi criada por Dennis Ritchie nos Bell Labs, em 1972.
+A linguagem derivou de B, que por sua vez veio de BCPL.
+O objetivo era ter uma linguagem de ALTO NIVEL que ainda
+permitisse controle direto sobre o HARDWARE.
+
+Em 1973, o Unix foi reescrito em C. Isso foi um MARCO:
+pela primeira vez, um SISTEMA OPERACIONAL era portavel.
+Em 1978, Kernighan e Ritchie publicaram o livro K&R.
+
+Em 1989, a ANSI padronizou a linguagem como C89.
+Em 1990, a ISO adotou o mesmo padrao como C90.
+Em 1999, veio o C99, com muitas NOVIDADES.
+
+Hoje, C influencia C++, Java, Go, Rust e PYTHON.

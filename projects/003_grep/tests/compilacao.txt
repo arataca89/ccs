@@ -1,0 +1,15 @@
+O processo de compilacao em C
+=============================
+
+Compilar um programa C envolve quatro etapas principais.
+A primeira e o PRE-PROCESSAMENTO, que trata diretivas como #include.
+A segunda e a COMPILACAO propriamente dita, que gera ASSEMBLY.
+
+A terceira e a MONTAGEM, que produz codigo objeto.
+A quarta e a LIGACAO, que junta os objetos e as bibliotecas.
+O compilador GCC e o Clang sao os mais usados hoje em dia.
+
+Cada etapa pode ser vista isoladamente com flags do compilador.
+Por exemplo, -E mostra a saida do PRE-PROCESSADOR.
+E -S mostra o ASSEMBLY gerado.
+E -c gera o codigo objeto sem ligar.

@@ -1,0 +1,14 @@
+003_grep
+
+Explicar
+
+* uso de size_t 
+
+* (1) 
+
+*         while (*h && *n && tolower((unsigned char)*h) == tolower((unsigned char)*n)) {
+            h++;
+            n++;
+        }
+
+* 
