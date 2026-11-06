@@ -86,6 +86,10 @@ contexto de um projeto específico):
   exemplos no `wc`, no `cat` e em lexers.
 - [Lookahead](docs/lookahead.md) — o conceito, com exemplos no
   `cat -U` e em lexers.
+- [Listas ligadas](docs/linked-list.md) — o conceito, com exemplos
+  em C e os erros mais comuns.
+- [Complexidade](docs/complexity.md) — o que significa O(n), como
+  identificar e comparar, sem a teoria chata.
 - [Guia de estilo do CCS](docs/style-guide.md) — convenções de
   código para todos os projetos.
 - [Compilando um projeto do CCS](docs/compilando.md) — template de
