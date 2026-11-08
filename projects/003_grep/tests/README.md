@@ -2,7 +2,7 @@
 
 Arquivos usados para verificar o comportamento do `grep`. Os
 gabaritos abaixo foram **medidos** rodando `grep` nos arquivos
-commitados (TDM-GCC 10.3 / Windows 11, em [data]). Nenhum valor
+commitados (TDM-GCC 10.3 / Windows 11, em 04/11/2026. Nenhum valor
 foi calculado à mão.
 
 ## Fixtures

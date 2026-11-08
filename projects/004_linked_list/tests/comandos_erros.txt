@@ -1,0 +1,11 @@
+# Teste de erros: comandos invalidos, argumentos faltando, lixo
+push
+push abc
+push 10 extra
+append
+remove
+find
+xyz
+push 10
+print
+quit

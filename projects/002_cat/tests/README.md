@@ -13,7 +13,7 @@ gabaritos são as **saídas esperadas por flag**, não contagens.
 ## Saídas esperadas
 
 Os gabaritos abaixo foram **medidos** rodando `cat` nos arquivos
-commitados, no ambiente TDM-GCC 10.3 / Windows 11, em [data].
+commitados, no ambiente TDM-GCC 10.3 / Windows 11, em 28/10/2026.
 Nenhum valor foi calculado à mão.
 
 ### `teste1.txt`

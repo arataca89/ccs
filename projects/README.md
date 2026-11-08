@@ -10,6 +10,7 @@ tem seu próprio `README.md`, `notes.md` e testes.
 | 001 | [wc](001_wc/) | Utilitário de linha de comando | Streams, `EOF`, máquina de estados, portabilidade |
 | 002 | [cat](002_cat/) | Utilitário de linha de comando | Parsing de flags, máquina de estados, lookahead, composição |
 | 003 | [grep](003_grep/) | Utilitário de linha de comando | Alocação dinâmica (`malloc`/`realloc`), `size_t`, busca literal, código de retorno POSIX |
+| 004 | [list](004_linked_list/) | Estrutura de dados | Ponteiros intensivos, `malloc`/`free` estruturados, `struct Node **`, CLI com `isatty` |
 
 *(novos projetos serão adicionados aqui)*
 
@@ -17,12 +18,14 @@ tem seu próprio `README.md`, `notes.md` e testes.
 
 Se você está começando em C, leia nesta ordem:
 
-1. **[001 — wc](001_wc/)** — pequeno, verificável, cobre o essencial
+1. **[001_ — wc](001_wc/)** — pequeno, verificável, cobre o essencial
    de streams e portabilidade.
 2. **[002 — cat](002_cat/)** — mais flags, parsing de `argv`,
    máquina de estados mais rica, lookahead de 1 caractere.
 3. **[003 — grep](003_grep/)** — alocação dinâmica (`malloc`/`realloc`),
    `size_t`, busca literal, código de retorno POSIX.
+4. **[004 — list](004_linked_list/)** — ponteiros intensivos,
+   `malloc`/`free` estruturados, `struct Node **`, CLI com `isatty`.
 
 *(a trilha cresce junto com a coleção)*
 
@@ -31,10 +34,15 @@ Se você está começando em C, leia nesta ordem:
 Os projetos são agrupados por **categoria de uso real**, não por
 dificuldade. Assim o leitor encontra o que procura.
 
+## Categorias
+
+Os projetos são agrupados por **categoria de uso real**, não por
+dificuldade. Assim o leitor encontra o que procura.
+
 | Categoria | O que cobre | Projetos |
 |---|---|---|
-| Utilitários de linha de comando | Ferramentas do dia a dia (wc, cat, grep...) | 001, 002, 003 |
-| Estruturas de dados | Listas, árvores, hash tables | *(em breve)* |
+| Utilitários de linha de comando | Ferramentas do dia a dia (wc, cat, grep...) | [001](001_wc/), [002](002_cat/), [003](003_grep/) |
+| Estruturas de dados | Listas, árvores, hash tables | [004](004_linked_list/) |
 | Redes | Sockets, protocolos | *(em breve)* |
 | Linguagens e parsers | Interpretadores, compiladores | *(em breve)* |
 | Jogos e gráficos em terminal | Snake, Tetris, ASCII art | *(em breve)* |

@@ -1,0 +1,17 @@
+# Teste basico: push, append, print, size, remove, find, free
+push 10
+push 20
+push 30
+append 40
+append 50
+print
+size
+remove 20
+print
+size
+find 40
+find 99
+free
+print
+size
+quit
