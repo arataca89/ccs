@@ -32,6 +32,7 @@ Cada projeto traz:
 | 002 | [cat](projects/002_cat/) | Utilitário de linha de comando | Concatenação e transformação de texto. Parsing manual de flags, máquina de estados, lookahead de 1 caractere, composição de transformações. |
 | 003 | [grep](projects/003_grep/) | Utilitário de linha de comando | Busca de padrão em linhas. Alocação dinâmica (`malloc`/`realloc`), `size_t`, busca literal, código de retorno POSIX. |
 | 004 | [list](projects/004_linked_list/) | Estrutura de dados | Lista ligada simples. Ponteiros intensivos, `malloc`/`free` estruturados, `struct Node **`, CLI interativa com `isatty` e `fflush`. |
+| 005 | [getopt](projects/005_getopt/) | Utilitário de linha de comando | Parsing de flags POSIX. Variáveis globais, `static` local, `--`, flags agrupadas, argumentos colados/separados. |
 
 *(novos projetos serão adicionados ao longo do tempo — ver
 [sumário detalhado](projects/README.md))*
@@ -95,6 +96,12 @@ contexto de um projeto específico):
   significados de `static`, e por que usar em helpers internos.
 - [Design de CLI](docs/cli-design.md) — flags, comandos e modo
   interativo; exit codes, help, prompt e `isatty`.
+- [`const` com ponteiros](docs/const-pointers.md) — onde o
+  `const` afeta: o dado ou o ponteiro.
+- [`argc` e `argv`](docs/argc-argv.md) — os argumentos do `main`,
+  como o shell os passa, e como percorrê-los.
+- [`extern`](docs/extern.md) — declarar sem definir, a diferença
+  entre declaração e definição, e por que o linker reclama.
 - [Guia de estilo do CCS](docs/style-guide.md) — convenções de
   código para todos os projetos.
 - [Compilando um projeto do CCS](docs/compilando.md) — template de

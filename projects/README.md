@@ -11,6 +11,7 @@ tem seu próprio `README.md`, `notes.md` e testes.
 | 002 | [cat](002_cat/) | Utilitário de linha de comando | Parsing de flags, máquina de estados, lookahead, composição |
 | 003 | [grep](003_grep/) | Utilitário de linha de comando | Alocação dinâmica (`malloc`/`realloc`), `size_t`, busca literal, código de retorno POSIX |
 | 004 | [list](004_linked_list/) | Estrutura de dados | Ponteiros intensivos, `malloc`/`free` estruturados, `struct Node **`, CLI com `isatty` |
+| 005 | [getopt](005_getopt/) | Utilitário de linha de comando | Parsing de flags POSIX, variáveis globais, `static` local, `--`, flags agrupadas |
 
 *(novos projetos serão adicionados aqui)*
 
@@ -26,6 +27,8 @@ Se você está começando em C, leia nesta ordem:
    `size_t`, busca literal, código de retorno POSIX.
 4. **[004 — list](004_linked_list/)** — ponteiros intensivos,
    `malloc`/`free` estruturados, `struct Node **`, CLI com `isatty`.
+5. **[005 — getopt](005_getopt/)** — parsing de flags POSIX,
+   variáveis globais, `static` local, flags agrupadas.
 
 *(a trilha cresce junto com a coleção)*
 
@@ -41,7 +44,7 @@ dificuldade. Assim o leitor encontra o que procura.
 
 | Categoria | O que cobre | Projetos |
 |---|---|---|
-| Utilitários de linha de comando | Ferramentas do dia a dia (wc, cat, grep...) | [001](001_wc/), [002](002_cat/), [003](003_grep/) |
+| Utilitários de linha de comando | Ferramentas do dia a dia (wc, cat, grep...) | [001](001_wc/), [002](002_cat/), [003](003_grep/), [005](005_getopt/) |
 | Estruturas de dados | Listas, árvores, hash tables | [004](004_linked_list/) |
 | Redes | Sockets, protocolos | *(em breve)* |
 | Linguagens e parsers | Interpretadores, compiladores | *(em breve)* |
