@@ -81,6 +81,8 @@ O executável fica em `build/<nome>` (Linux/macOS) ou
 Textos transversais, que valem por si (podem ser lidos fora do
 contexto de um projeto específico):
 
+- [Referência C](docs/reference/README.md) — funções, macros e
+  tipos da libc usados no CCS, em português.
 - [Por que C ainda importa](docs/why-c.md) — resposta às objeções
   comuns ("C é antiga", "C é difícil", "C é insegura").
 - [Linha do tempo de C](docs/history.md) — de ALGOL a C23.
