@@ -11,7 +11,8 @@ tem seu próprio `README.md`, `notes.md` e testes.
 | 002 | [cat](002_cat/) | Utilitário de linha de comando | Parsing de flags, máquina de estados, lookahead, composição |
 | 003 | [grep](003_grep/) | Utilitário de linha de comando | Alocação dinâmica (`malloc`/`realloc`), `size_t`, busca literal, código de retorno POSIX |
 | 004 | [list](004_linked_list/) | Estrutura de dados | Ponteiros intensivos, `malloc`/`free` estruturados, `struct Node **`, CLI com `isatty` |
-| 005 | [getopt](005_getopt/) | Utilitário de linha de comando | Parsing de flags POSIX, variáveis globais, `static` local, `--`, flags agrupadas |
+| 005 | [getopt](005_getopt/) | Utilitário de linha de comando | Parsing de flags POSIX, variáveis globais, `static` local, flags agrupadas |
+| 006 | [hexdump](006_hexdump/) | Ferramenta de sistema | Leitura binária (`fread`), formatação hex, ASCII imprimível, `fseek`, `ferror` |
 
 *(novos projetos serão adicionados aqui)*
 
@@ -19,7 +20,7 @@ tem seu próprio `README.md`, `notes.md` e testes.
 
 Se você está começando em C, leia nesta ordem:
 
-1. **[001_ — wc](001_wc/)** — pequeno, verificável, cobre o essencial
+1. **[001 — wc](001_wc/)** — pequeno, verificável, cobre o essencial
    de streams e portabilidade.
 2. **[002 — cat](002_cat/)** — mais flags, parsing de `argv`,
    máquina de estados mais rica, lookahead de 1 caractere.
@@ -29,13 +30,10 @@ Se você está começando em C, leia nesta ordem:
    `malloc`/`free` estruturados, `struct Node **`, CLI com `isatty`.
 5. **[005 — getopt](005_getopt/)** — parsing de flags POSIX,
    variáveis globais, `static` local, flags agrupadas.
+6. **[006 — hexdump](006_hexdump/)** — leitura binária (`fread`),
+   formatação hex, ASCII imprimível, `fseek`, `ferror`.
 
 *(a trilha cresce junto com a coleção)*
-
-## Categorias
-
-Os projetos são agrupados por **categoria de uso real**, não por
-dificuldade. Assim o leitor encontra o que procura.
 
 ## Categorias
 
@@ -46,7 +44,7 @@ dificuldade. Assim o leitor encontra o que procura.
 |---|---|---|
 | Utilitários de linha de comando | Ferramentas do dia a dia (wc, cat, grep...) | [001](001_wc/), [002](002_cat/), [003](003_grep/), [005](005_getopt/) |
 | Estruturas de dados | Listas, árvores, hash tables | [004](004_linked_list/) |
+| Ferramentas de sistema | `ls`, `/proc`, syscalls, hexdump | [006](006_hexdump/) |
 | Redes | Sockets, protocolos | *(em breve)* |
 | Linguagens e parsers | Interpretadores, compiladores | *(em breve)* |
 | Jogos e gráficos em terminal | Snake, Tetris, ASCII art | *(em breve)* |
-| Ferramentas de sistema | `ls`, `/proc`, syscalls | *(em breve)* |

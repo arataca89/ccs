@@ -37,7 +37,7 @@ Usado em: `001`, `002`, `003`, `004`, `005`.
 Usado em: `001`, `002`, `003`, `004`, `005`.
 
 - Alocação: [`malloc`](stdlib.md#malloc), [`calloc`](stdlib.md#calloc), [`realloc`](stdlib.md#realloc), [`free`](stdlib.md#free)
-- Conversão: [`strtol`](stdlib.md#strtol), [`atoi`](stdlib.md#atoi), [`getenv`](stdlib.md#getenv)
+- Conversão: [`strtol`](stdlib.md#strtol), [`strtoul`](stdlib.md#strtoul), [`atoi`](stdlib.md#atoi), [`getenv`](stdlib.md#getenv)
 - Processo: [`exit`](stdlib.md#exit), [`EXIT_SUCCESS`](stdlib.md#exit_success), [`EXIT_FAILURE`](stdlib.md#exit_failure)
 - Outras: [`qsort`](stdlib.md#qsort), [`bsearch`](stdlib.md#bsearch), [`rand`](stdlib.md#rand), [`srand`](stdlib.md#srand), [`abs`](stdlib.md#abs)
 

@@ -162,6 +162,36 @@ Ver [notes.md do 004](../../projects/004_linked_list/notes.md#parse_int-com-strt
 **Ver também**: [`atoi`](#atoi) (e por que **não** usar),
 [`errno`](errno.md#errno).
 
+### `strtoul`
+
+**Header**: `<stdlib.h>`
+
+**Assinatura**: `unsigned long strtoul(const char *nptr, char **endptr, int base);`
+
+**O que faz**: converte a string `nptr` em um `unsigned long`, na
+base `base`. `endptr` recebe um ponteiro para o primeiro
+caractere **não consumido** pela conversão.
+
+**Retorno**: o valor convertido. Se nenhum dígito for encontrado,
+retorna 0 e `endptr == nptr`. Se o valor estourar `unsigned
+long`, retorna `ULONG_MAX` e seta `errno = ERANGE`.
+
+**Onde usamos**: `006_hexdump` (`parse_ulong`).
+
+**Cuidados**: como `strtol`, **sempre** verifique `endptr` para
+detectar erros:
+
+- `*endptr != '\0'`: sobrou lixo depois do número (`"16abc"`).
+- `endptr == nptr`: nada foi convertido (`"abc"`, `""`).
+
+**Diferença de `strtol`**: `strtoul` retorna `unsigned long`
+(sem sinal), e aceita `-` (comportamento indefinido para o nosso
+caso). Para offsets (que são sempre ≥ 0), `strtoul` é o tipo
+certo.
+
+**Ver também**: [`strtol`](#strtol), [`atoi`](#atoi),
+[`errno`](errno.md#errno).
+
 ### `atoi`
 
 **Header**: `<stdlib.h>`

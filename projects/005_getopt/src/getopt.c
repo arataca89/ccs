@@ -1,7 +1,8 @@
+#include "getopt.h"
+
 #include <stdio.h>
 #include <string.h>
 
-#include "getopt.h"
 
 /* Variáveis globais (POSIX). */
 char *optarg = NULL;

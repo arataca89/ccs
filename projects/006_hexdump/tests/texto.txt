@@ -1,0 +1,2 @@
+Hello, hexdump!
+Segunda linha.

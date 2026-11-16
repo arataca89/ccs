@@ -138,7 +138,7 @@ use o `FILE *` depois de `fclose` (use-after-close).
 
 **Retorno**: o caractere escrito, ou `EOF` em erro.
 
-**Onde usamos**: `002`.
+**Onde usamos**: `002`, `006`.
 
 ### `fgets`
 
@@ -170,7 +170,7 @@ bytes).
 **Retorno**: o número de elementos lidos. Se `< nmemb`, houve
 EOF ou erro.
 
-**Onde usamos**: (será usado no `006_hexdump`).
+**Onde usamos**: `006_hexdump`.
 
 **Cuidados**: o retorno é em **elementos**, não bytes. Para ler
 bytes, use `size = 1` e `nmemb = N` (retorna o número de bytes).
@@ -241,7 +241,7 @@ bytes, use `size = 1` e `nmemb = N` (retorna o número de bytes).
 
 **Retorno**: `0` em sucesso, não-zero em erro.
 
-**Onde usamos**: (será usado no `006_hexdump`, para `-s N`).
+**Onde usamos**: `006_hexdump`.
 
 **Cuidados**: só funciona em arquivos **buscáveis** (não em
 pipes/stdin).
@@ -270,7 +270,7 @@ pipes/stdin).
 
 **Retorno**: não-zero se houve erro, `0` caso contrário.
 
-**Onde usamos**: `001`, `002`, `003`.
+**Onde usamos**: `001`, `002`, `003`, `006`.
 
 **Cuidados**: `ferror` **não** indica EOF; indica erro. Para
 distinguir, use `feof` (não usamos ainda).

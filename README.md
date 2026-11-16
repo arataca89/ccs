@@ -33,6 +33,7 @@ Cada projeto traz:
 | 003 | [grep](projects/003_grep/) | Utilitário de linha de comando | Busca de padrão em linhas. Alocação dinâmica (`malloc`/`realloc`), `size_t`, busca literal, código de retorno POSIX. |
 | 004 | [list](projects/004_linked_list/) | Estrutura de dados | Lista ligada simples. Ponteiros intensivos, `malloc`/`free` estruturados, `struct Node **`, CLI interativa com `isatty` e `fflush`. |
 | 005 | [getopt](projects/005_getopt/) | Utilitário de linha de comando | Parsing de flags POSIX. Variáveis globais, `static` local, `--`, flags agrupadas, argumentos colados/separados. |
+| 006 | [hexdump](projects/006_hexdump/) | Ferramenta de sistema | Visualizador hexadecimal. Leitura binária (`fread`), formatação hex, ASCII imprimível, `fseek`, `ferror`. |
 
 *(novos projetos serão adicionados ao longo do tempo — ver
 [sumário detalhado](projects/README.md))*
@@ -81,8 +82,6 @@ O executável fica em `build/<nome>` (Linux/macOS) ou
 Textos transversais, que valem por si (podem ser lidos fora do
 contexto de um projeto específico):
 
-- [Referência C](docs/reference/README.md) — funções, macros e
-  tipos da libc usados no CCS, em português.
 - [Por que C ainda importa](docs/why-c.md) — resposta às objeções
   comuns ("C é antiga", "C é difícil", "C é insegura").
 - [Linha do tempo de C](docs/history.md) — de ALGOL a C23.
@@ -94,6 +93,14 @@ contexto de um projeto específico):
   em C e os erros mais comuns.
 - [Complexidade](docs/complexity.md) — o que significa O(n), como
   identificar e comparar, sem a teoria chata.
+- [Padrões de C](docs/patterns.md) — padrões que programadores
+  experientes usam, mas os livros não citam.
+- [Especificadores de formato do `printf`](docs/format-specifiers.md)
+  — `%d`, `%zu`, `%02x`, `%08lx`, e os outros.
+- [Tabela ASCII](docs/ascii-table.md) — os caracteres imprimíveis
+  (32–126), os de controle, e a faixa estendida.
+- [`ferror`](docs/ferror.md) — para que serve, quando usar, onde
+  colocar.
 - [Por que usar funções `static`](docs/static.md) — os três
   significados de `static`, e por que usar em helpers internos.
 - [Design de CLI](docs/cli-design.md) — flags, comandos e modo
@@ -102,12 +109,14 @@ contexto de um projeto específico):
   `const` afeta: o dado ou o ponteiro.
 - [`argc` e `argv`](docs/argc-argv.md) — os argumentos do `main`,
   como o shell os passa, e como percorrê-los.
-- [`extern`](docs/extern.md) — declarar sem definir, a diferença
-  entre declaração e definição, e por que o linker reclama.
+- [`extern`](docs/extern.md) — declarar sem definir, e por que o
+  linker reclama.
 - [Guia de estilo do CCS](docs/style-guide.md) — convenções de
   código para todos os projetos.
-- [Compilando um projeto do CCS](docs/compilando.md) — template de
-  `CMakeLists.txt` e comandos para TDM-GCC, GCC/Clang e MSVC.
+- [Compilando um projeto do CCS](docs/compilando.md) — template
+  de `CMakeLists.txt` e comandos para TDM-GCC, GCC/Clang e MSVC.
+- [Referência C](docs/reference/README.md) — funções, macros e
+  tipos da libc usados no CCS, em português.
 
 ## Licença
 

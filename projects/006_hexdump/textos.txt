@@ -1,0 +1,19 @@
+Textos sobre assuntos que os alunos normalmente não tem conhecimento (coisas não citada pelos professores de faculdade:
+
+* especificadores de formato usados em printf
+* tabela ASCII
+* uso do operador condicional (operador ternário) 
+* explicar o padrão:
+
+        if (fseek(in, (long)opts->skip, SEEK_SET) != 0) {
+            fprintf(stderr, "hexdump: nao foi possivel pular %lu bytes\n",
+                    opts->skip);
+            return -1;
+        }
+
+
+    este padrão elegante de usar o if para tentar chamar a função e em caso de erro já tomar as providencias é um
+    padrão que os alunos não conhecem, pois os professores e livros não citam. 
+
+ * o uso de ferror(): para que serve, quando usar e onde por no código.
+
