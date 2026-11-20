@@ -90,6 +90,21 @@ O `-G "MinGW Makefiles"` diz ao CMake para preparar a compilação
 usando o TDM-GCC (que é baseado em MinGW), em vez de tentar usar o
 Visual Studio por padrão.
 
+### Explicação das opções dos comandos
+
+• `cmake` invoca o CMake, ferramenta que gerencia e automatiza o processo de preparação de projetos multiplataforma.
+
+• `-S .` (Source) define onde está o código-fonte. O ponto (`.`) indica o diretório atual do terminal, onde o CMake buscará o arquivo CMakeLists.txt.
+
+• `-B build` (Build) define onde os arquivos gerados ficarão salvos. Ele cria uma pasta chamada `build` para manter o código-fonte limpo e separado dos arquivos temporários.
+
+• `-G "MinGW Makefiles"` (Generator) especifica o formato dos arquivos de construção. Como no Windows o padrão do CMake costuma ser o Visual Studio, essa opção força a criação de Makefiles compatíveis com o ambiente MinGW (usando o utilitário mingw32-make).
+
+• `--build`instrui o CMake a agir como uma ponte para o sistema de compilação escolhido. Isso evita que você precise digitar comandos específicos de cada sistema operacional ou compilador.
+
+• `build` indica o caminho da pasta onde estão os arquivos de configuração que foram gerados no passo anterior (`-B build`).
+
+
 **Linux/macOS** (GCC ou Clang):
 
 ```bash
@@ -111,3 +126,9 @@ ou `build/<nome>.exe` (Windows).
 
 O problema é quase sempre o `target_include_directories` com o
 nome errado. Verifique se o nome bate com o `add_executable`.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

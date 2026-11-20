@@ -64,3 +64,9 @@ leitura, e a contagem de bytes fica errada. No Linux/macOS,
 `_setmode` não existe (o modo é sempre binário).
 
 **Ver também**: [`_O_BINARY`](fcntl.md#_o_binary).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

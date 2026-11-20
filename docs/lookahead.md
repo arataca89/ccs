@@ -275,3 +275,9 @@ final, apontando para os conceitos:
 - [Máquina de estados](../../docs/state-machine.md) — usada em
   `-s` (squeeze) e no `wc`.
 - [Lookahead](../../docs/lookahead.md) — usada em `-U` (CRLF).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

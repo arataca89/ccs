@@ -318,3 +318,9 @@ documentados, com os gabaritos medidos.
 9. **O shell pode traduzir EOL**: o `type` do Windows traduz
    `\r\n` → `\n` em pipes. O `cat` do Linux não. O `hexdump`
    mostra o que **recebe**, não o que está no arquivo original.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

@@ -149,3 +149,9 @@ os fixtures em CRLF.
 - POSIX `grep`: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/grep.html>
 - GNU grep: <https://www.gnu.org/software/grep/manual/grep.html>
 - História do `grep`: <https://en.wikipedia.org/wiki/Grep>
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

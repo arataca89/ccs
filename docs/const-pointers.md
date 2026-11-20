@@ -278,3 +278,9 @@ dados read-only.
   (declarações) menciona `const` de passagem.
 - `cdecl` (ferramenta online): <https://cdecl.org/> — traduz
   declarações C para inglês.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

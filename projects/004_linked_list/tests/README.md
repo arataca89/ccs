@@ -142,3 +142,9 @@ para **erros**. Scripts podem redirecionar um sem o outro
 erros aparecem no terminal).
 
 Para capturar **tudo** (como o usuário vê), use `2>&1`.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

@@ -169,3 +169,9 @@ mas perder dados silenciosamente.
 - *The C Programming Language*, Kernighan & Ritchie — seção 7.6
   (error handling).
 - *Modern C*, Jens Gustedt — capítulo sobre I/O.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

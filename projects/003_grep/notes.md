@@ -329,3 +329,9 @@ diferença é só o `\r` invisível no fim das linhas impressas.
 9. **CRLF é uma decisão**. Manter CRLF nos fixtures do `grep` é
    intencional, e documentar o `\r` invisível é mais didático que
    converter e fingir que ele não existe.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

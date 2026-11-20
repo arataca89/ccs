@@ -77,3 +77,9 @@ Entender **por que** cada feature existe é mais útil que decorar
 **quando** ela apareceu. E entender que C evolui — devagar, com
 cuidado, mas evolui — desfaz a ideia de que é uma linguagem
 "parada no tempo".
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

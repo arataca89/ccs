@@ -43,3 +43,9 @@ int wc_count(FILE *stream, WcCounts *out)
 
     return 0;
 }
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

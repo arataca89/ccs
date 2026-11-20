@@ -590,3 +590,9 @@ stdin**. Fechar `stdin` é erro (o sistema fecha no fim).
 - **Fechamento**: `fclose` só se não for stdin.
 - **Código de retorno**: 0 (sucesso) ou 1 (erro), via operador
   ternário.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

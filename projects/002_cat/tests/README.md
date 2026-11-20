@@ -109,3 +109,9 @@ fixtures que fazem sentido para **o que quer demonstrar**:
   **tabs** (`-T`), e **CRLF** (`-U`).
 
 A diferença é intencional: cada projeto é autocontido.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

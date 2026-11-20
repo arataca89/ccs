@@ -161,3 +161,9 @@ do `hexdump.c` e do `main.c`, para quem está começando em C.
 - `hexdump` (Linux): <https://man7.org/linux/man-pages/man1/hexdump.1.html>
 - `xxd` (Linux): <https://linux.die.net/man/1/xxd>
 - Tabela ASCII: <https://www.asciitable.com/>
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

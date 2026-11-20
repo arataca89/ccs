@@ -334,3 +334,9 @@ separadores por `'\0'`). E **não é thread-safe** (usa estado
 (POSIX).
 
 **Ver também**: [`strchr`](#strchr).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

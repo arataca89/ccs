@@ -13,6 +13,7 @@ tem seu próprio `README.md`, `notes.md` e testes.
 | 004 | [list](004_linked_list/) | Estrutura de dados | Ponteiros intensivos, `malloc`/`free` estruturados, `struct Node **`, CLI com `isatty` |
 | 005 | [getopt](005_getopt/) | Utilitário de linha de comando | Parsing de flags POSIX, variáveis globais, `static` local, flags agrupadas |
 | 006 | [hexdump](006_hexdump/) | Ferramenta de sistema | Leitura binária (`fread`), formatação hex, ASCII imprimível, `fseek`, `ferror` |
+| 007 | [string_utils](007_string_utils/) | Utilitário de linha de comando | `malloc`/`free`, `memcpy`, aritmética de ponteiros, `ptrdiff_t`, array de ponteiros |
 
 *(novos projetos serão adicionados aqui)*
 
@@ -32,6 +33,9 @@ Se você está começando em C, leia nesta ordem:
    variáveis globais, `static` local, flags agrupadas.
 6. **[006 — hexdump](006_hexdump/)** — leitura binária (`fread`),
    formatação hex, ASCII imprimível, `fseek`, `ferror`.
+7. **[007 — string_utils](007_string_utils/)** — funções de
+   string (`strdup`, `strtrim`, `strsplit`), `malloc`/`free`,
+   `memcpy`, aritmética de ponteiros.
 
 *(a trilha cresce junto com a coleção)*
 
@@ -42,9 +46,15 @@ dificuldade. Assim o leitor encontra o que procura.
 
 | Categoria | O que cobre | Projetos |
 |---|---|---|
-| Utilitários de linha de comando | Ferramentas do dia a dia (wc, cat, grep...) | [001](001_wc/), [002](002_cat/), [003](003_grep/), [005](005_getopt/) |
+| Utilitários de linha de comando | Ferramentas do dia a dia (wc, cat, grep...) | [001](001_wc/), [002](002_cat/), [003](003_grep/), [005](005_getopt/), [007](007_string_utils/) |
 | Estruturas de dados | Listas, árvores, hash tables | [004](004_linked_list/) |
 | Ferramentas de sistema | `ls`, `/proc`, syscalls, hexdump | [006](006_hexdump/) |
 | Redes | Sockets, protocolos | *(em breve)* |
 | Linguagens e parsers | Interpretadores, compiladores | *(em breve)* |
 | Jogos e gráficos em terminal | Snake, Tetris, ASCII art | *(em breve)* |
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

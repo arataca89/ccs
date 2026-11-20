@@ -364,3 +364,9 @@ usa seed 1 (sequência sempre igual).
 **Cuidados**: `abs(INT_MIN)` é **comportamento indefinido**
 (porque `-INT_MIN` não cabe em `int`). Para `long`, use `labs`;
 para `long long`, `llabs`.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

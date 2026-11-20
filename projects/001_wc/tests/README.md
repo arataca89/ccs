@@ -27,3 +27,9 @@ Se você estiver **dentro de `build/`**, use `..\tests\...`:
 
 O arquivo termina sem `\n` na última linha. O `wc` conta quebras de
 linha, não "linhas visuais". Comportamento idêntico ao `wc` POSIX.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

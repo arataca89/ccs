@@ -41,3 +41,9 @@ os limites de `int` (`INT_MIN`, `INT_MAX` em `<limits.h>`), se
 o resultado for armazenado em `int`.
 
 **Ver também**: [`errno`](#errno), [`strtol`](stdlib.md#strtol).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

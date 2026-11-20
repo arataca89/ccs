@@ -118,3 +118,9 @@ Se você quiser testar com arquivos LF, crie um `tests/lf.txt` com
 o mesmo conteúdo (convertido no editor) e compare as saídas.
 A diferença é só o `\r` invisível — os gabaritos de contagem são
 os mesmos.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

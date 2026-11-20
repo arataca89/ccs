@@ -34,6 +34,7 @@ Cada projeto traz:
 | 004 | [list](projects/004_linked_list/) | Estrutura de dados | Lista ligada simples. Ponteiros intensivos, `malloc`/`free` estruturados, `struct Node **`, CLI interativa com `isatty` e `fflush`. |
 | 005 | [getopt](projects/005_getopt/) | Utilitário de linha de comando | Parsing de flags POSIX. Variáveis globais, `static` local, `--`, flags agrupadas, argumentos colados/separados. |
 | 006 | [hexdump](projects/006_hexdump/) | Ferramenta de sistema | Visualizador hexadecimal. Leitura binária (`fread`), formatação hex, ASCII imprimível, `fseek`, `ferror`. |
+| 007 | [string_utils](projects/007_string_utils/) | Utilitário de linha de comando | Funções de string (`strdup`, `strtrim`, `strsplit`, etc.). `malloc`/`free`, `memcpy`, aritmética de ponteiros, `ptrdiff_t`. |
 
 *(novos projetos serão adicionados ao longo do tempo — ver
 [sumário detalhado](projects/README.md))*
@@ -111,6 +112,8 @@ contexto de um projeto específico):
   como o shell os passa, e como percorrê-los.
 - [`extern`](docs/extern.md) — declarar sem definir, e por que o
   linker reclama.
+- [Aritmética de ponteiros](docs/pointer-arithmetic.md) — somar,
+  subtrair e comparar endereços; o tipo `ptrdiff_t`.
 - [Guia de estilo do CCS](docs/style-guide.md) — convenções de
   código para todos os projetos.
 - [Compilando um projeto do CCS](docs/compilando.md) — template
@@ -122,3 +125,8 @@ contexto de um projeto específico):
 
 MIT. Ver [LICENSE](LICENSE).
 
+---
+
+arataca89@gmail.com
+
+Aulas de programação

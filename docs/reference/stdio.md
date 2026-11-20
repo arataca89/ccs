@@ -291,3 +291,9 @@ antes do `fgets`).
 **Cuidados**: `fflush(stdout)` é **obrigatório** após um prompt
 sem `\n`. Ver
 [notes.md do 004](../../projects/004_linked_list/notes.md#fflushstdout-após-o-prompt).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

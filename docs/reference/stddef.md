@@ -44,6 +44,32 @@ warnings (`-Wsign-compare`) e, às vezes, bugs (a comparação
 **Ver também**: [`NULL`](#null), [`malloc`](stdlib.md#malloc),
 [`strlen`](string.md#strlen).
 
+### `ptrdiff_t`
+
+**Header**: `<stddef.h>`.
+
+**O que é**: um tipo inteiro **com sinal** (`signed`), usado
+para representar a **diferença** entre dois ponteiros (o
+resultado de `p2 - p1`).
+
+**Por que existe**: o tamanho de um `ptrdiff_t` depende da
+plataforma (como o `size_t`). Em 32-bit, é tipicamente 32 bits;
+em 64-bit, 64 bits. Usar `int` para diferença de ponteiros
+**quebra** em plataformas onde o `int` é menor que o ponteiro.
+
+**Por que `signed`**: a diferença pode ser **negativa** (se
+`p2 < p1`). O `ptrdiff_t` precisa representar valores negativos
+(o `size_t` não pode).
+
+**Onde usamos**: `007_string_utils` (`strtrim`, `strsplit`).
+
+**Cuidados**: o especificador de formato é **`%td`** (não `%d`).
+Se você quer `size_t` (unsigned), faça o cast explícito:
+`(size_t)(end - start + 1)`.
+
+**Ver também**: [`size_t`](#size_t),
+[`docs/pointer-arithmetic.md`](../pointer-arithmetic.md#o-tipo-ptrdiff_t).
+
 ## Macros
 
 ### `NULL`
@@ -61,3 +87,9 @@ NULL;` é **erro conceitual** (embora o compilador possa aceitar
 com warning). Use `0` para inteiros, `NULL` para ponteiros.
 
 **Ver também**: [`size_t`](#size_t).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

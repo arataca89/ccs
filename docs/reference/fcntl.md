@@ -34,3 +34,9 @@ e nós mudamos para binário).
 **Cuidados**: no Linux/macOS, não existe.
 
 **Ver também**: [`_setmode`](io.md#_setmode), [`_O_BINARY`](#_o_binary).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

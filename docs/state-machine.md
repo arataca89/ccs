@@ -241,3 +241,9 @@ nome a ele) é metade do caminho.
   Aho et al. — capítulo 3 cobre lexers como máquinas de estados.
 - *The Art of Unix Programming*, Eric Raymond — capítulo sobre
   "Textuality" menciona máquinas de estados em ferramentas Unix.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

@@ -198,3 +198,9 @@ chamando `getopt` ao mesmo tempo corrompem o estado.
 Mas o [notes.md](../notes.md) registra a limitação, e menciona a alternativa
 (struct de estado em vez de globais) como melhoria futura.
 
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

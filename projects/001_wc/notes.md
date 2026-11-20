@@ -82,3 +82,9 @@ do ecossistema POSIX que todo programa C precisa encarar.
 do projeto. Não existe "path certo" em absoluto — existe path certo
 **para o diretório de onde você roda**. Por isso o README do projeto
 sempre diz **de onde** rodar cada comando.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

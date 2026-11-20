@@ -273,3 +273,9 @@ que percorrer `envp`.
 - *Modern C*, Jens Gustedt — capítulo sobre `main` e argumentos.
 - POSIX `execve`:
   <https://pubs.opengroup.org/onlinepubs/9699919799/functions/execve.html>
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

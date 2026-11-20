@@ -167,3 +167,9 @@ validação, `fgets` vs. `read_line`, a CLI, e as lições gerais.
 - *Algorithms in C*, Robert Sedgewick — capítulo sobre listas.
 - *Introduction to Algorithms*, Cormen et al. — capítulo 10
   (estruturas de dados elementares).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

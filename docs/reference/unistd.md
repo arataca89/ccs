@@ -43,3 +43,9 @@ stream (um `int`). No Unix, `stdin` é 0, `stdout` é 1, `stderr`
 `_fileno` (em `<io.h>`). Ver [io.md](io.md#_fileno).
 
 **Ver também**: [`isatty`](#isatty), [`_fileno`](io.md#_fileno).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

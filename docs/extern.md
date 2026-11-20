@@ -297,3 +297,9 @@ declare, e o `.c` defina.
 - *Modern C*, Jens Gustedt — capítulo sobre ligação (linkage).
 - *Expert C Programming: Deep C Secrets*, Peter van der Linden —
   capítulo 4 ("Linkers and Loaders") explica o que o linker faz.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

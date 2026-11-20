@@ -200,3 +200,9 @@ isso.
   (`static` em funções e variáveis).
 - *Modern C*, Jens Gustedt — capítulo sobre ligação (linkage).
 - `man static` (não existe; `static` é palavra-chave, não função).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

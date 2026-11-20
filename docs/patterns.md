@@ -211,3 +211,9 @@ cond ? a : b`, `x = cond ? a : b`). Para casos complexos, use
 - `006_hexdump`: `return (rc == 0) ? 0 : 1;` e
   `fputc(is_printable(c) ? c : '.', out);`.
 - (futuros projetos).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

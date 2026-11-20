@@ -171,3 +171,9 @@ colapsava), as soluções consideradas, as escolhas feitas e por quê.
 - POSIX `cat`: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/cat.html>
 - GNU coreutils `cat`: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>
 - História do `cat`: <https://en.wikipedia.org/wiki/Cat_(Unix)>
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

@@ -335,3 +335,9 @@ Tente 'grep -h' para ajuda.
   "Good-Enough Software" (inclui CLIs).
 - POSIX Utility Conventions:
   <https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap12.html>
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

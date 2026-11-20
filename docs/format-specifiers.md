@@ -376,3 +376,9 @@ do argumento. Na dúvida, consulte a tabela, ou compile com
 - *The C Programming Language*, Kernighan & Ritchie — seção 7.2
   (`printf`).
 - *Modern C*, Jens Gustedt — capítulo sobre I/O formatado.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

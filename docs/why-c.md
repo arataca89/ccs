@@ -86,3 +86,9 @@ quer **construir** ferramentas, C é o caminho mais direto.
 - *Modern C*, Jens Gustedt (3ª ed., 2019) — gratuito online
 - *Expert C Programming: Deep C Secrets*, Peter van der Linden (1994)
 - *21st Century C*, Ben Klemens (2ª ed., 2014)
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

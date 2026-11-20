@@ -386,3 +386,9 @@ diferente. `opterr = 0` desliga a mensagem do `getopt`, e o
 10. **O `demo` é uma demonstração**, não uma ferramenta. O
     objetivo é mostrar o `getopt` funcionando, não fazer algo
     útil.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

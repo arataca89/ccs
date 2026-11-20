@@ -155,3 +155,9 @@ decisões de escopo.
   <https://www.gnu.org/software/libc/manual/html_node/Getopt.html>
 - *The GNU C Library Reference Manual* — capítulo "Parsing
   Program Arguments".
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

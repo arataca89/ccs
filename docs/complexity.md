@@ -273,3 +273,9 @@ Complexidade **não** mede:
   (crescimento de funções), mas é denso.
 - *Grokking Algorithms*, Aditya Bhargava — introdução ilustrada,
   sem matemática pesada.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

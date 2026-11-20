@@ -96,3 +96,9 @@ Ver [notes.md](notes.md).
 
 - POSIX `wc`: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/wc.html>
 - História do `wc`: <https://en.wikipedia.org/wiki/Wc_(Unix)>
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

@@ -444,3 +444,9 @@ exit code 0 é razoável. O `notes.md` registra a decisão.
 10. **Simplicidade primeiro, otimização depois**: `append` O(n) e
     `size` O(n) são suficientes para o escopo. `tail` e `size`
     ficam para depois.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

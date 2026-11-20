@@ -211,3 +211,9 @@ O `hexdump -C` (e o nosso `006_hexdump`) mostra o ASCII entre
 - *The C Programming Language*, Kernighan & Ritchie — seção 2.3
   (constantes de caractere).
 - `man 7 ascii` (Linux) — a tabela no terminal.
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

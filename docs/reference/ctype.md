@@ -123,3 +123,9 @@ maiúscula correspondente. Senão, retorna `c` inalterado.
 `toupper((unsigned char)c)`.
 
 **Ver também**: [`tolower`](#tolower).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

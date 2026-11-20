@@ -27,9 +27,9 @@ Usado em: `001`, `002`, `003`, `004`, `005`.
 
 ### [`<stddef.h>`](stddef.md) — definições padrão
 
-Usado em: `001`, `002`, `003`, `004`, `005`.
+Usado em: `001`, `002`, `003`, `004`, `005`, `007`.
 
-- Tipos: [`size_t`](stddef.md#size_t)
+- Tipos: [`size_t`](stddef.md#size_t), [`ptrdiff_t`](stddef.md#ptrdiff_t)
 - Macros: [`NULL`](stddef.md#null)
 
 ### [`<stdlib.h>`](stdlib.md) — utilidades gerais
@@ -66,3 +66,9 @@ Usado em: `003`, `005`.
   - [`_O_BINARY`](fcntl.md#_o_binary), [`_O_TEXT`](fcntl.md#_o_text)
 - [`<errno.h>`](errno.md) — mencionado, não usado ainda.
   - [`errno`](errno.md#errno), [`ERANGE`](errno.md#erange)
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação

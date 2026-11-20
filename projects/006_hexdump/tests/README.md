@@ -226,3 +226,9 @@ CRLF e LF, tem hexdumps **diferentes** (o `\r` aparece ou não).
 O `hexdump` é sobre **bytes**, não sobre texto. O `notes.md`
 registra a decisão de manter o `texto.txt` em CRLF (para mostrar
 o `\r`).
+
+---
+
+arataca89@gmail.com
+
+Aulas de programação
