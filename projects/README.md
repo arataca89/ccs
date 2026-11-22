@@ -14,6 +14,7 @@ tem seu próprio `README.md`, `notes.md` e testes.
 | 005 | [getopt](005_getopt/) | Utilitário de linha de comando | Parsing de flags POSIX, variáveis globais, `static` local, flags agrupadas |
 | 006 | [hexdump](006_hexdump/) | Ferramenta de sistema | Leitura binária (`fread`), formatação hex, ASCII imprimível, `fseek`, `ferror` |
 | 007 | [string_utils](007_string_utils/) | Utilitário de linha de comando | `malloc`/`free`, `memcpy`, aritmética de ponteiros, `ptrdiff_t`, array de ponteiros |
+| 008 | [rle](008_rle/) | Ferramenta de sistema | Compressão RLE, leitura/escrita binária, `_setmode`, `ferror`, detecção de corrupção |
 
 *(novos projetos serão adicionados aqui)*
 
@@ -36,6 +37,8 @@ Se você está começando em C, leia nesta ordem:
 7. **[007 — string_utils](007_string_utils/)** — funções de
    string (`strdup`, `strtrim`, `strsplit`), `malloc`/`free`,
    `memcpy`, aritmética de ponteiros.
+8. **[008 — rle](008_rle/)** — compressão RLE, leitura/escrita
+   binária, `_setmode`, `ferror`, detecção de corrupção.
 
 *(a trilha cresce junto com a coleção)*
 
@@ -48,7 +51,7 @@ dificuldade. Assim o leitor encontra o que procura.
 |---|---|---|
 | Utilitários de linha de comando | Ferramentas do dia a dia (wc, cat, grep...) | [001](001_wc/), [002](002_cat/), [003](003_grep/), [005](005_getopt/), [007](007_string_utils/) |
 | Estruturas de dados | Listas, árvores, hash tables | [004](004_linked_list/) |
-| Ferramentas de sistema | `ls`, `/proc`, syscalls, hexdump | [006](006_hexdump/) |
+| Ferramentas de sistema | `ls`, `/proc`, syscalls, hexdump, compressão | [006](006_hexdump/), [008](008_rle/) |
 | Redes | Sockets, protocolos | *(em breve)* |
 | Linguagens e parsers | Interpretadores, compiladores | *(em breve)* |
 | Jogos e gráficos em terminal | Snake, Tetris, ASCII art | *(em breve)* |
@@ -57,4 +60,4 @@ dificuldade. Assim o leitor encontra o que procura.
 
 arataca89@gmail.com
 
-Aulas de programação
+Aulas particulares de programação

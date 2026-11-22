@@ -35,6 +35,7 @@ Cada projeto traz:
 | 005 | [getopt](projects/005_getopt/) | Utilitário de linha de comando | Parsing de flags POSIX. Variáveis globais, `static` local, `--`, flags agrupadas, argumentos colados/separados. |
 | 006 | [hexdump](projects/006_hexdump/) | Ferramenta de sistema | Visualizador hexadecimal. Leitura binária (`fread`), formatação hex, ASCII imprimível, `fseek`, `ferror`. |
 | 007 | [string_utils](projects/007_string_utils/) | Utilitário de linha de comando | Funções de string (`strdup`, `strtrim`, `strsplit`, etc.). `malloc`/`free`, `memcpy`, aritmética de ponteiros, `ptrdiff_t`. |
+| 008 | [rle](projects/008_rle/) | Ferramenta de sistema | Compressão RLE (Run-Length Encoding). Leitura/escrita binária, `_setmode`, `ferror`, detecção de corrupção. |
 
 *(novos projetos serão adicionados ao longo do tempo — ver
 [sumário detalhado](projects/README.md))*
@@ -114,6 +115,8 @@ contexto de um projeto específico):
   linker reclama.
 - [Aritmética de ponteiros](docs/pointer-arithmetic.md) — somar,
   subtrair e comparar endereços; o tipo `ptrdiff_t`.
+- [Compressão de dados](docs/compression.md) — o que é, como
+  funciona, RLE, LZ77, Huffman, DEFLATE, e compressão com perda.
 - [Guia de estilo do CCS](docs/style-guide.md) — convenções de
   código para todos os projetos.
 - [Compilando um projeto do CCS](docs/compilando.md) — template
