@@ -15,6 +15,7 @@ tem seu próprio `README.md`, `notes.md` e testes.
 | 006 | [hexdump](006_hexdump/) | Ferramenta de sistema | Leitura binária (`fread`), formatação hex, ASCII imprimível, `fseek`, `ferror` |
 | 007 | [string_utils](007_string_utils/) | Utilitário de linha de comando | `malloc`/`free`, `memcpy`, aritmética de ponteiros, `ptrdiff_t`, array de ponteiros |
 | 008 | [rle](008_rle/) | Ferramenta de sistema | Compressão RLE, leitura/escrita binária, `_setmode`, `ferror`, detecção de corrupção |
+| 009 | [snake](009_snake/) | Jogos e gráficos em terminal | Jogo da cobrinha em ASCII. Terminal (ANSI, `conio.h`/`termios`), input não-bloqueante, fila circular, `malloc`/`free`, `enum`/`struct` |
 
 *(novos projetos serão adicionados aqui)*
 
@@ -39,6 +40,9 @@ Se você está começando em C, leia nesta ordem:
    `memcpy`, aritmética de ponteiros.
 8. **[008 — rle](008_rle/)** — compressão RLE, leitura/escrita
    binária, `_setmode`, `ferror`, detecção de corrupção.
+9. **[009 — snake](009_snake/)** — jogo da cobrinha em ASCII.
+   Terminal (ANSI, `conio.h`/`termios`), input não-bloqueante,
+   fila circular, `malloc`/`free`, `enum`/`struct`.
 
 *(a trilha cresce junto com a coleção)*
 
@@ -54,8 +58,7 @@ dificuldade. Assim o leitor encontra o que procura.
 | Ferramentas de sistema | `ls`, `/proc`, syscalls, hexdump, compressão | [006](006_hexdump/), [008](008_rle/) |
 | Redes | Sockets, protocolos | *(em breve)* |
 | Linguagens e parsers | Interpretadores, compiladores | *(em breve)* |
-| Jogos e gráficos em terminal | Snake, Tetris, ASCII art | *(em breve)* |
-
+| Jogos e gráficos em terminal | Snake, Tetris, ASCII art | [009](009_snake/) |
 ---
 
 arataca89@gmail.com

@@ -36,6 +36,7 @@ Cada projeto traz:
 | 006 | [hexdump](projects/006_hexdump/) | Ferramenta de sistema | Visualizador hexadecimal. Leitura binária (`fread`), formatação hex, ASCII imprimível, `fseek`, `ferror`. |
 | 007 | [string_utils](projects/007_string_utils/) | Utilitário de linha de comando | Funções de string (`strdup`, `strtrim`, `strsplit`, etc.). `malloc`/`free`, `memcpy`, aritmética de ponteiros, `ptrdiff_t`. |
 | 008 | [rle](projects/008_rle/) | Ferramenta de sistema | Compressão RLE (Run-Length Encoding). Leitura/escrita binária, `_setmode`, `ferror`, detecção de corrupção. |
+| 009 | [snake](projects/009_snake/) | Jogos e gráficos em terminal | Jogo da cobrinha em ASCII. Terminal (ANSI, `conio.h`/`termios`), input não-bloqueante, fila circular, `malloc`/`free`, `enum`/`struct`. |
 
 *(novos projetos serão adicionados ao longo do tempo — ver
 [sumário detalhado](projects/README.md))*
@@ -117,6 +118,18 @@ contexto de um projeto específico):
   subtrair e comparar endereços; o tipo `ptrdiff_t`.
 - [Compressão de dados](docs/compression.md) — o que é, como
   funciona, RLE, LZ77, Huffman, DEFLATE, e compressão com perda.
+- [Fila circular](docs/circular-queue.md) — o conceito, com
+  exemplos e a ligação com o `snake.c`.
+- [Input não-bloqueante](docs/non-blocking-input.md) — o que é, por
+  que o Snake precisa, `_kbhit`/`_getch` no Windows, `VMIN =
+  0`/`read` no Linux/macOS.
+- [Cores ANSI](docs/ansi-colors.md) — os códigos de escape das
+  cores.
+- [`#define`, `enum` e `struct`](docs/define-enum-struct.md) — como
+  o Snake usa cada um.
+- [`malloc`](docs/malloc-when.md) — quando usar `malloc`.
+- [Funções de terminal](docs/terminal-functions.md) — as funções
+  dependentes de plataforma.
 - [Guia de estilo do CCS](docs/style-guide.md) — convenções de
   código para todos os projetos.
 - [Compilando um projeto do CCS](docs/compilando.md) — template
