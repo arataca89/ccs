@@ -1,4 +1,4 @@
-# Notas de implementação — 009 snake
+# Notas de implementação — 009_snake
 
 Registro do raciocínio por trás do código. Não é tutorial: é o
 "porquê" das decisões, incluindo os tropeços.
